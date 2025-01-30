@@ -7,9 +7,9 @@ The whole program depend on the following three parts: blockchain implementation
 
 3. Each node will have functionality to mine blocks and broadcast them to all other nodes. Each node will also have functionality to receive blocks from all other nodes and verify them. If a received block is valid, the node will accept it and add it to its local blockchain. If the block has a higher ID number, it will request the whole chain from the node it got the block from. If the block is invalid, the node refuses the incoming block.  
 
-4. Our blockchain will apply to a currency (apecoin) that can be used in an online shop. When a transaction occurs, the application layer will contact a node. The node will mine a new block to record the shop's most up-to-date record and broadcast to all other nodes.  
+4. Our blockchain will apply to a currency that can be used in an online shop. When a transaction occurs, the application layer will contact a node. The node will mine a new block to record the shop's most up-to-date record and broadcast to all other nodes.  
 
-5. Everytime a new shopper joins they will have 1000 apecoins to spend. A new shopper joining will trigger a new block to be added to the chain. Each block will store information about every user.  
+5. Everytime a new shopper joins they will have 1000 coins to spend. A new shopper joining will trigger a new block to be added to the chain. Each block will store information about every user.  
 
 ### BlockChain Implementation
 This part describes the data structures and functions used to implement the blockchain technology. There are three classes:  
@@ -74,7 +74,7 @@ Functions:
 
 ### Application  
 
-Our application is essentially a store/marketplace to buy different types of monkeys using the currency, apecoin. This is run on file shop.py.  
+Our application is essentially a store/marketplace to buy different types of monkeys using the currency. This is run on file shop.py.  
 1. shop.py  
 The shop offers a user options to create/select a new user, or purchase a monkey from a list of monkeys printed to the terminal. Upon a change to the record, which occurs with every action by the user, the shop contacts the tracker and selects an active node at random to mine a new block with the updated record. There should only be one instance of this program run and it should always be for a freshly started blockchain network. With multiple shops running, the network will contain intermingled records from different shops. If the network is not restarted when the shop is, there will be blocks at the beginning of the chain from a dead shop.  
 Command line arguments:  
