@@ -1,10 +1,7 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/-Lgd7v9y)
-# CSEE 4119 Spring 2024, Class Project
-## Team name: Degenerates
-## Team members (name, GitHub username): Tony Giannini, tony-feasts | Paul Kearns, PaulKearns | Noah Hartzfeld, nhartz24 | Ruizhe Fu, FrzNo1
-## 
+# Blockchain Cryptocurrency Project
+## Paul Kearns
   
-Our final project involves creating a simplified peer-to-peer blockchain along with a toy application. Blockchain, a distributed mechanism invented in 2008 for Bitcoin, allows nodes in a network to agree on a state without mutual trust. It operates as a linked list of blocks, each containing a cryptographic hash of the previous block, ensuring data integrity. Blockchains resist data modification, making them suitable for various applications beyond cryptocurrencies. Typically, blockchains are managed by a peer-to-peer network where each node stores the entire blockchain, forming a distributed ledger.  
+This project, the final project for my Computer Networks class, involved creating a simplified peer-to-peer blockchain along with a toy application in a group with three other students. Blockchain, a distributed mechanism invented in 2008 for Bitcoin, allows nodes in a network to agree on a state without mutual trust. It operates as a linked list of blocks, each containing a cryptographic hash of the previous block, ensuring data integrity. Blockchains resist data modification, making them suitable for various applications beyond cryptocurrencies. Typically, blockchains are managed by a peer-to-peer network where each node stores the entire blockchain, forming a distributed ledger.  
   
 ### Features:  
 We implemented a simple peer-to-peer network with blockchain objects. In addition, we made a small application, shop.py, which utilizes block chain for record keeping. This is the complete list of features:  

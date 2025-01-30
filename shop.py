@@ -106,6 +106,6 @@ if __name__ == '__main__':
                 update_blockchian()
                 print(f'You have purchased a {shop[item - 1][0]}!')
             else:
-                print('You do not have enough apecoins to make that purchase.')
+                print('You do not have enough coins to make that purchase.')
         else:
             print('Invalid input. Please try again.')

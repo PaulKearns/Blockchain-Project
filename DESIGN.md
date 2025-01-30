@@ -1,6 +1,3 @@
-## Team name: Degenerates
-## Team members (name, GitHub username): Tony Giannini, tony-feasts | Paul Kearns, PaulKearns | Noah Hartzfeld, nhartz24 | Ruizhe Fu, FrzNo1
-
 ### High Level Ideas
 The whole program depend on the following three parts: blockchain implementation, peer-to-peer network, and application layer program. The following is an overview of the whole program. Detailed implementation will be described later.  
   

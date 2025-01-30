@@ -1,7 +1,4 @@
-# CSEE 4119 Spring 2024, Class Project， TESTING
-## Team name: Degenerates
-## Team members (name, GitHub username): Tony Giannini, tony-feasts | Paul Kearns, PaulKearns | Noah Hartzfeld, nhartz24 | Ruizhe Fu, FrzNo1
-## 
+# TESTING
 
 We will provide two tests in the following. The first test will verify that when a node receive an invalid block, it will reject it; and when a node receive a block that have lager block ID, it will request the whole new chain. The second test will verify that when a node joins or leaves the network, the whole network still behaves properly.  
 
